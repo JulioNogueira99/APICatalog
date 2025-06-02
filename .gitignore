@@ -1,0 +1,57 @@
+## Ignore arquivos de build e binários
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+*.log
+
+## Ignore arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+## Ignore arquivos gerados pelo Rider/VSCode/Visual Studio
+.idea/
+.vscode/
+.vs/
+
+## Ignore pacotes NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Ignore arquivos de publicação
+publish/
+out/
+
+## Ignore secrets
+secrets.json
+appsettings.Development.json
+
+## Ignore arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+## Ignore logs e dumps
+*.stackdump
+*.pid
+
+## Ignore testes e cobertura
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.testresults
